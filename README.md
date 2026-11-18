@@ -24,7 +24,7 @@ Designed specifically to tackle severe solid waste dumping, unmanaged sewage, an
 * **Frontend & UI Framework:** Streamlit (Python)
 * **AI Processing Engine:** Groq API (Default Model: `qwen/qwen3.8-27b`)
 * **Database Management:** SQLite3 (Embedded local database)
-* **Data & Image Handling:** Pandas, Pillow (PIL), Base64 encoding[cite: 6]
+* **Data & Image Handling:** Pandas, Pillow (PIL), Base64 encoding
 
 ---
 
@@ -34,10 +34,32 @@ Follow these step-by-step instructions to set up and run the application on your
 
 ### Step 1: Prepare Your Project Files
 Ensure your project folder contains the following core files:
-* `app.py` (Main application script containing the full source code)[cite: 6]
+* `app.py` (Main application script containing the full source code)
 * `requirements.txt` (Project dependencies list)[cite: 7]
 
 ### Step 2: Install Required Dependencies
 Open your terminal inside the project folder and run the following command to install all required Python libraries:
 ```bash
 pip install -r requirements.txt
+
+Step 3: Open App
+To open and run the application, follow these simple steps:
+
+Click on Terminal in your code editor (like VS Code).
+
+Click on New Terminal.
+
+Put/type the following command and press Enter:
+
+Bash
+streamlit run app.py
+The application will automatically launch in your default web browser at http://localhost:8501.
+
+Step 4: Configure Credentials in the App SidebarWhen the application opens in your browser, look at the left sidebar:Enter Groq API Key: Enter your personal, free Groq API key (get yours from Groq Console).   Groq Model Name: Ensure the default model name is set correctly[cite: 6]:Plaintextqwen/qwen3.8-27b
+Use the Navigation Menu to switch between Home, AI Scanner, Citizen Reporting, and the Admin Dashboard[cite: 6].
+
+👨‍💻 Developer & Creator
+ARSALAN
+Full-Stack Web & AI Developer | Karachi, Pakistan
+GitHub: @arsalanmustafa725
+LinkedIn: muhammad-arsalan-50b848356
