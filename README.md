@@ -61,5 +61,5 @@ Use the Navigation Menu to switch between Home, AI Scanner, Citizen Reporting, a
 👨‍💻 Developer & Creator
 ARSALAN
 Full-Stack Web & AI Developer | Karachi, Pakistan
-GitHub: @arsalanmustafa725
-LinkedIn: muhammad-arsalan-50b848356
+GitHub:https://github.com/arsalanmustafa725
+LinkedIn:linkedin.com/in/muhammad-arsalan-50b848356?originalSubdomain=pk
